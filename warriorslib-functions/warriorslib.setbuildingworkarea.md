@@ -6,7 +6,8 @@ Legen Sie den Arbeitsbereich für ein Gebäude fest. Dies ist das gleiche Ereign
 
 #### Rückgabewert
 
-none
+* **Ab Version 1.5.0**: success \[0, 1]
+* Davor: none
 
 ```lua
 WarriorsLib.SetBuildingWorkarea(Buildings.GetFirstBuilding(3, Buildings.BARRACKS),70, 33, 3)

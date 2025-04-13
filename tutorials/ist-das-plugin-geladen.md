@@ -30,7 +30,7 @@ function new_game()
 end
 ```
 
-`WarriorsLib.VERSION` - Gibt die aktuelle vollständige Version an (Beispiel: 1.4.0)\
+`WarriorsLib.VERSION` - Gibt die aktuelle vollständige Version an (Beispiel: 1.5.0)\
 `WarriorsLib.MAJOR_VERSION` - Gibt die aktuelle Hauptversion an (Beispiel: 1)\
-`WarriorsLib.MINOR_VERSION` - Gibt die aktuelle Nebenversion an (Beispiel: 4)\
+`WarriorsLib.MINOR_VERSION` - Gibt die aktuelle Nebenversion an (Beispiel: 5)\
 `WarriorsLib.AUTHOR` - Gibt die aktuellen Author(en) an

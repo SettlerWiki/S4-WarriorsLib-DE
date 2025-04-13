@@ -18,7 +18,8 @@ Geben sie sie dem angegeben Gebäude (meistens eine Kaserne) den Befehl die Rekr
 
 #### Rückgabewert
 
-none
+* **Ab Version 1.5.0**: success \[0, 1]
+* Davor: none
 
 ```lua
 WarriorsLib.RecruitWarriors(Buildings.GetFirstBuilding(1, Buildings.BARRACKS), Settlers.BOWMAN_03, 5, 1)

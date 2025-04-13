@@ -6,7 +6,8 @@ Gibt an, welche Waren und wie viele ein Markt oder Hafen transportieren soll. Ve
 
 #### Rückgabewert
 
-none
+* **Ab Version 1.5.0**: success \[0, 1]
+* Davor: none
 
 ```lua
 b1 = Buildings.GetFirstBuilding(1, Buildings.MARKETPLACE)

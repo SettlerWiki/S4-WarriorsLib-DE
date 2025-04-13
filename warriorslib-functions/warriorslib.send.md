@@ -8,7 +8,8 @@ Sende alle Einheiten zu den Koordinaten. **group** ist hierbei die Referenz dein
 
 #### Rückgabewert
 
-none
+* **Ab Version 1.5.0**: success \[0, 1]
+* Davor: none
 
 #### Beispiel
 

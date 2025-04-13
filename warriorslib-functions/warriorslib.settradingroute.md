@@ -8,7 +8,8 @@ Legen Sie den Zielmarkt/-hafen eines Marktes/Hafens fest, um eine Handelsroute e
 
 #### Rückgabewert
 
-none
+* **Ab Version 1.5.0**: success \[0, 1]
+* Davor: none
 
 ```lua
 b1 = Buildings.GetFirstBuilding(1, Buildings.MARKETPLACE)

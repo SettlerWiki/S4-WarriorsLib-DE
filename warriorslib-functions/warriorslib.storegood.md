@@ -10,7 +10,8 @@ Wenn TRUE, beginnt das Gebäude, Waren des angegebenen Typs zu lagern. Wenn FALS
 
 #### Rückgabewert
 
-none
+* **Ab Version 1.5.0**: success \[0, 1]
+* Davor: none
 
 ```lua
 Buildings.AddBuilding(118, 58, 3, Buildings.STORAGEAREA)

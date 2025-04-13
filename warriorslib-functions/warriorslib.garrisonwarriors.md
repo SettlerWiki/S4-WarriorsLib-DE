@@ -6,7 +6,8 @@ Besetzen eines Gebäudes. Dadurch kann ein Militärgebäude in der Nähe befindl
 
 #### Rückgabewert
 
-none
+* **Ab Version 1.5.0**: success \[0, 1]
+* Davor: none
 
 ```lua
 WarriorsLib.GarrisonWarriors(Buildings.GetFirstBuilding(1, Buildings.GUARDTOWERSMALL),1)
